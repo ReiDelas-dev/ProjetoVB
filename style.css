@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/BG.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+body * {
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+
+#conteiner {
+  width: 360px;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+  padding: 50px;
+}
+
+#profile img {
+  width: 160px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.468);
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background: rgba(75, 75, 75, 0.338);
+  border: 1px solid rgba(255, 255, 255, 0.468);
+  border-radius: 50px;
+
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+ul li a:hover {
+  background-color: rgba(33, 32, 32, 0.814);
+  border: 1px solid rgba(39, 255, 86, 0.833);
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+#social-links a:hover {
+  background: rgba(39, 255, 86, 0.833);
+}
+
+#Voltar {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+  font-size: 24px;
+}
+
